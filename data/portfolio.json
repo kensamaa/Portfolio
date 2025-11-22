@@ -1,130 +1,123 @@
 {
   "personal": {
-    "name": "Alex Rivera",
-    "title": "Senior Software Developer & Crypto Trader",
-    "location": "Brussels, Belgium",
-    "yearsOfExperience": 5,
-    "email": "alex.rivera@example.com",
-    "phone": "+32 XXX XXX XXX",
-    "linkedin": "https://www.linkedin.com/in/alexrivera/",
-    "github": "https://github.com/alexrivera"
+    "name": "Amine Abouothmane",
+    "title": "Ingenieur Informatique",
+    "location": "Casablanca, Morocco",
+    "yearsOfExperience": 4,
+    "email": "amine.abouothmane@gmail.com",
+    "phone": "+212 640147304",
+    "linkedin": "https://www.linkedin.com/in/amine-abouothmane/",
+    "github": "https://github.com/kensaamaa"
   },
   "home": {
-    "bio": "Experienced developer passionate about building AI-powered trading bots, scalable web applications for small businesses, and machine learning models for predictive analytics. Skilled in Python/ML, C#/.NET, React/Next.js, and cloud technologies like AWS. Focused on efficient, production-ready solutions using Agile methodologies.",
+    "bio": "Ingenieur logiciel avec plus de 4 ans d'expérience chez Capgemini, spécialisé dans le développement fullstack avec une expertise en technologie .NET. Passionné par la conception et le développement de solutions innovantes et performantes.",
     "services": [
-      "AI & Machine Learning Development",
-      "Crypto Trading Bots & Strategies",
-      "Fullstack Web Apps (Python/C#/React)",
-      "Small Business Management Tools",
-      "DevOps & API Integrations"
+      "Développement Fullstack (.NET/React)",
+      "Architecture Microservices & Cloud",
+      "Clean Architecture & Unit Testing",
+      "DevOps & CI/CD",
+      "Développement d'APIs RESTful"
     ]
   },
   "about": {
     "callToAction": "Ready to discuss your project? Let's build something innovative!",
     "specializations": {
-      "backend": ["Python (FastAPI/Django)", "C#/.NET Core", "Golang"],
-      "frontend": ["React/Next.js", "TypeScript/JavaScript"],
-      "mlAi": ["TensorFlow/PyTorch", "XGBoost", "scikit-learn"],
+      "backend": ["Dotnet/WPF", "Golang", "Python"],
+      "frontend": ["React/Redux", "Angular"],
+      "databases": ["MongoDB", "PostgreSQL", "Redis", "SQLite"],
       "other": [
-        "Crypto APIs (Binance, CoinGecko)",
-        "DevOps (Docker, Kubernetes, Airflow)",
-        "Databases (PostgreSQL, MongoDB)"
+        "Azure Services (C#.Net, OracleI2c, Swagger, SonarQube, ServiceMail, Technica)",
+        "DevOps (Docker, Git, Gitlab, Sonarqube, azureDevops)",
+        "Microservices & CI/CD"
       ]
     },
-    "bio": "Senior Software Developer and Crypto Trader based in Brussels, Belgium. Over 5 years of experience at companies like Capgemini and leading tech startups. Built trading bots for BTC futures, recommendation engines, and multi-tenant apps for small businesses. Hold a Master's in Computer Science from KU Leuven.",
-    "interests": "When not coding, I trade crypto, optimize ML models, read about blockchain, play chess, or explore new tech trends.",
-    "philosophy": "I focus on clean, efficient code with best practices like CQRS, DDD, and clean architecture. Experienced in serverless APIs (AWS Lambda), data pipelines (Apache Airflow), and ethical AI for trading and recommendations.",
+    "bio": "Ingenieur logiciel avec plus de 3 ans d'expérience chez Capgemini, spécialisé dans le développement fullstack avec une expertise en technologie .NET. Passionné par la conception et le développement de solutions innovantes et performantes.",
+    "interests": "When not coding, I practice martial arts, play video games, or explore photography.",
+    "philosophy": "I focus on clean, efficient code with best practices like CQRS, DDD, and clean architecture. Experienced in microservices, CI/CD pipelines, and SCRUM methodology.",
     "employment": [
       {
-        "company": "Freelance Crypto Trader & Developer",
-        "position": "Senior Developer",
-        "period": "2022 - Present",
-        "description": "Building automated trading systems and ML models"
+        "company": "Capgemini",
+        "position": "Ingenieur Informatique",
+        "period": "September 2021 - Present",
+        "description": "Développement de service et batch pour la solution de client, Analyse et augmentation de performance et qualité de code, Implémentation de clean architecture et unit test, mise en place de nouvelles fonctionnalités demandé par le client en s'assurant de la qualité du livrable, Animation d'une commune SCRUM et communauté de dev, Faire la revue de code pour l'équipe et exécution des pipelines, Framework de gestion de projet : SaFE, migration de projet existant depuis progress vers azure Core, Technologies: .NetCore v5, NodeJS12.*, React redux, MongoDB 4.2, Azure services (C#.Net, OracleI2c, Swagger, SonarQube, ServiceMail, Technica), BFF(nodejs), SPA(react redux), Outils: Docker, Git, Gitlab, Sonarqube, azureDevops"
       },
       {
         "company": "Capgemini",
-        "position": "Senior Software Engineer",
-        "period": "2020 - 2022",
-        "description": "Led development of enterprise applications"
+        "position": "Stage en ingenieurie informatique",
+        "period": "Mars 2021 - Aout 2021",
+        "description": "Participation au développement des modules du périmètre marketing, Maintenance de l'application client, Développement de nouveau Features cote DA, BFF et SPA, Implémentations de test unitaire, Framework de gestion de projet: Scrum, Technologies: .NetCore v5, NodeJS12.*, React redux, MongoDB 4.2, Outils: Docker, Git, Gitlab, Sonarqube, azureDevops"
       },
       {
-        "company": "TechStartup Inc.",
-        "position": "ML Engineer",
-        "period": "2018 - 2020",
-        "description": "Developed recommendation engines and predictive models"
+        "company": "Royal Air Maroc",
+        "position": "Stage en ingenieurie informatique",
+        "period": "Juin 2019 - Aout 2019",
+        "description": "développement d'une application desktop .NET WPF pour gestion de facture, Création de base de donné et liaison avec entity et sgbd sql server"
       }
     ],
     "education": [
       {
-        "institution": "KU Leuven",
-        "degree": "Master's in Computer Science",
-        "period": "2016 - 2018",
-        "focus": "Machine Learning & Data Science"
-      },
-      {
-        "institution": "University of Brussels",
-        "degree": "Bachelor's in Software Engineering",
-        "period": "2013 - 2016",
-        "focus": "Software Development"
+        "institution": "EMSI",
+        "degree": "Diplome ingenieurie informatique miage",
+        "period": "2017 - 2021",
+        "focus": "Casablanca"
       }
     ],
     "certifications": [
-      "AWS Certified Developer - Associate",
-      "Coursera Machine Learning Specialization",
-      "Certified Kubernetes Administrator (CKA)"
+      "ASP.NET Core - SOLID and Clean Architecture - Udemy",
+      "az-900 azure fondamentals - Microsoft",
+      "Programming with google Go - UCI"
     ]
   },
   "services": {
-    "intro": "Specializing in AI-driven solutions, crypto tools, and scalable apps using modern tech stacks. Expect production-ready systems from trading bots to business management platforms.",
+    "intro": "Specializing in fullstack development, clean architecture, and cloud-based solutions using modern tech stacks. Expect production-ready systems from microservices to enterprise applications.",
     "expectations": [
-      "AI & ML Model Development",
-      "Crypto Trading Bots",
-      "Fullstack Web & API Services",
-      "Small Business Apps",
-      "DevOps Implementations"
+      "Fullstack Web Development",
+      "Clean Architecture & SOLID Principles",
+      "Microservices Architecture",
+      "Cloud Solutions (Azure)",
+      "DevOps & CI/CD"
     ],
     "technologies": {
-      "backend": ["Python", "C#/.NET Core", "FastAPI"],
-      "frontend": ["React/Next.js"],
-      "ml": ["PyTorch", "XGBoost"],
-      "cloudDevOps": ["AWS", "Docker", "Airflow"],
-      "crypto": ["Binance API", "yfinance"]
+      "backend": ["Dotnet/WPF", "Golang", "Python"],
+      "frontend": ["React/Redux", "Angular"],
+      "databases": ["MongoDB", "PostgreSQL", "Redis", "SQLite"],
+      "cloudDevOps": ["Azure", "Docker", "Git", "Gitlab", "Sonarqube", "azureDevops"]
     },
     "detailed": [
       {
-        "title": "AI & Machine Learning",
-        "description": "Building models for predictions (e.g., price forecasting with XGBoost), recommendation engines (TensorFlow/PyTorch), deployed as serverless APIs.",
-        "icon": "brain"
-      },
-      {
-        "title": "Crypto Trading Bots",
-        "description": "Automated strategies for BTC/SEI on 15-min timeframes, using indicators like RSI/MACD/ATR, backtesting, and live execution.",
-        "icon": "trending-up"
-      },
-      {
-        "title": "Fullstack Web & Mobile",
-        "description": "Responsive apps with React/Next.js frontend, Python/C# backend, RESTful APIs.",
+        "title": "Fullstack Development",
+        "description": "Building scalable applications with .NET Core backend and React/Angular frontend, following clean architecture principles.",
         "icon": "code"
       },
       {
-        "title": "Small Business Tools",
-        "description": "Multi-tenant platforms for inventory/orders, with AI integrations (e.g., RAG chatbots via Ollama).",
-        "icon": "store"
+        "title": "Microservices Architecture",
+        "description": "Designing and implementing microservices-based solutions with Docker, Azure services, and API gateways.",
+        "icon": "settings"
       },
       {
-        "title": "DevOps & Integrations",
-        "description": "CI/CD pipelines, containerization, data workflows.",
-        "icon": "settings"
+        "title": "Clean Architecture & Testing",
+        "description": "Implementing SOLID principles, clean architecture patterns, and comprehensive unit testing.",
+        "icon": "brain"
+      },
+      {
+        "title": "Cloud Solutions",
+        "description": "Azure-based solutions including C#.Net, OracleI2c, Swagger, SonarQube integration.",
+        "icon": "cloud"
+      },
+      {
+        "title": "DevOps & CI/CD",
+        "description": "Setting up CI/CD pipelines, containerization with Docker, and code quality management.",
+        "icon": "trending-up"
       }
     ]
   },
   "contact": {
-    "invitation": "Thinking about a new trading bot, AI project, or business app? Let's connect! Use the form or reach me directly.",
+    "invitation": "Thinking about a new project or need consulting? Let's connect! Use the form or reach me directly.",
     "serviceOptions": [
-      "AI Development",
-      "Trading Bot",
+      "Fullstack Development",
+      "Microservices Architecture",
       "Web App",
-      "Mobile App",
+      "Cloud Solutions",
       "DevOps Consulting",
       "Other"
     ]

@@ -87,14 +87,14 @@ export default function About() {
               </div>
             </div>
 
-            {/* ML/AI */}
+            {/* Databases */}
             <div className="bg-[#1a1a1a] border border-gray-800 rounded-lg p-6 hover:border-[#00d4ff] transition-colors">
               <div className="flex items-center gap-3 mb-4">
-                <Brain className="text-[#00d4ff]" size={24} />
-                <h3 className="text-xl font-semibold">ML/AI</h3>
+                <Database className="text-[#00d4ff]" size={24} />
+                <h3 className="text-xl font-semibold">Databases</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {portfolioData.about.specializations.mlAi.map((tech, index) => (
+                {portfolioData.about.specializations.databases.map((tech, index) => (
                   <span key={index} className="skill-badge">
                     {tech}
                     <div className="progress-bar w-16">

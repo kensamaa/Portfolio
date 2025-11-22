@@ -1,0 +1,3 @@
+Contact: mailto:amine.abouothmane@gmail.com
+Preferred-Languages: en, fr
+Canonical: https://yourportfolio.com/.well-known/security.txt

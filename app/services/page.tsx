@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import portfolioData from '@/data/portfolio.json';
 import type { Metadata } from 'next';
-import { Brain, TrendingUp, Code, Store, Settings, ArrowRight } from 'lucide-react';
+import { Brain, TrendingUp, Code, Cloud, Settings, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: `${portfolioData.personal.name} | Software Development Services`,
@@ -12,7 +12,7 @@ const iconMap: Record<string, any> = {
   brain: Brain,
   'trending-up': TrendingUp,
   code: Code,
-  store: Store,
+  cloud: Cloud,
   settings: Settings,
 };
 
@@ -82,9 +82,9 @@ export default function Services() {
             </div>
 
             <div className="bg-[#1a1a1a] border border-gray-800 rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-4">ML/AI</h3>
+              <h3 className="text-lg font-semibold mb-4">Databases</h3>
               <div className="flex flex-wrap gap-2">
-                {portfolioData.services.technologies.ml.map((tech, index) => (
+                {portfolioData.services.technologies.databases.map((tech, index) => (
                   <span key={index} className="px-3 py-1 bg-[#0a0a0a] border border-gray-700 rounded text-sm text-gray-300">
                     {tech}
                   </span>
@@ -103,16 +103,6 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] border border-gray-800 rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-4">Crypto</h3>
-              <div className="flex flex-wrap gap-2">
-                {portfolioData.services.technologies.crypto.map((tech, index) => (
-                  <span key={index} className="px-3 py-1 bg-[#0a0a0a] border border-gray-700 rounded text-sm text-gray-300">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 
@@ -144,43 +134,43 @@ export default function Services() {
                     </p>
 
                     {/* Service Details */}
-                    {service.title === 'AI & Machine Learning' && (
+                    {service.title === 'Fullstack Development' && (
                       <ul className={`space-y-2 text-sm ${isEven ? 'text-gray-800' : 'text-gray-500'}`}>
-                        <li>→ Price forecasting with XGBoost</li>
-                        <li>→ Recommendation engines (TensorFlow/PyTorch)</li>
-                        <li>→ Serverless API deployment</li>
+                        <li>→ .NET Core backend</li>
+                        <li>→ React/Angular frontend</li>
+                        <li>→ Clean architecture principles</li>
                       </ul>
                     )}
                     
-                    {service.title === 'Crypto Trading Bots' && (
+                    {service.title === 'Microservices Architecture' && (
                       <ul className={`space-y-2 text-sm ${isEven ? 'text-gray-800' : 'text-gray-500'}`}>
-                        <li>→ Automated strategies for BTC/SEI</li>
-                        <li>→ RSI/MACD/ATR indicators</li>
-                        <li>→ Backtesting & live execution</li>
+                        <li>→ Docker containerization</li>
+                        <li>→ Azure services integration</li>
+                        <li>→ API gateways</li>
                       </ul>
                     )}
                     
-                    {service.title === 'Fullstack Web & Mobile' && (
+                    {service.title === 'Clean Architecture & Testing' && (
                       <ul className={`space-y-2 text-sm ${isEven ? 'text-gray-800' : 'text-gray-500'}`}>
-                        <li>→ React/Next.js frontend</li>
-                        <li>→ Python/C# backend</li>
-                        <li>→ RESTful APIs</li>
+                        <li>→ SOLID principles</li>
+                        <li>→ Clean architecture patterns</li>
+                        <li>→ Unit testing</li>
                       </ul>
                     )}
                     
-                    {service.title === 'Small Business Tools' && (
+                    {service.title === 'Cloud Solutions' && (
                       <ul className={`space-y-2 text-sm ${isEven ? 'text-gray-800' : 'text-gray-500'}`}>
-                        <li>→ Multi-tenant platforms</li>
-                        <li>→ Inventory/order management</li>
-                        <li>→ AI chatbots (RAG via Ollama)</li>
+                        <li>→ Azure-based solutions</li>
+                        <li>→ C#.Net, OracleI2c</li>
+                        <li>→ Swagger, SonarQube integration</li>
                       </ul>
                     )}
                     
-                    {service.title === 'DevOps & Integrations' && (
+                    {service.title === 'DevOps & CI/CD' && (
                       <ul className={`space-y-2 text-sm ${isEven ? 'text-gray-800' : 'text-gray-500'}`}>
                         <li>→ CI/CD pipelines</li>
-                        <li>→ Containerization (Docker/K8s)</li>
-                        <li>→ Data workflows (Airflow)</li>
+                        <li>→ Docker containerization</li>
+                        <li>→ Code quality management</li>
                       </ul>
                     )}
                   </div>

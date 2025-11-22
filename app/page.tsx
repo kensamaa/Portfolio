@@ -1,5 +1,15 @@
 import Link from 'next/link';
 import portfolioData from '@/data/portfolio.json';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: `${portfolioData.personal.name} | ${portfolioData.personal.title} - Portfolio`,
+  description: `${portfolioData.home.bio} Specializing in ${portfolioData.home.services.join(', ')}.`,
+  openGraph: {
+    title: `${portfolioData.personal.name} | ${portfolioData.personal.title}`,
+    description: portfolioData.home.bio,
+  },
+};
 
 export default function Home() {
   return (
